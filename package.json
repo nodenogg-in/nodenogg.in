@@ -1,0 +1,46 @@
+{
+  "name": "nodenogg.in",
+  "version": "0.1.52",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lint:fix": "vue-cli-service lint --fix"
+  },
+  "dependencies": {
+    "assert": "^2.0.0",
+    "core-js": "^3.9.1",
+    "crypto": "^1.0.1",
+    "crypto-browserify": "^3.12.0",
+    "file-loader": "^6.2.0",
+    "invariant": "^2.2.4",
+    "levenary": "^1.1.1",
+    "marked": "^2.0.1",
+    "pouchdb": "^7.2.2",
+    "stream": "^0.0.2",
+    "url": "^0.11.0",
+    "util": "^0.12.5",
+    "vue": "^2.6.12",
+    "vue-draggable-resizable": "^2.3.0",
+    "vue-emoji-picker": "^1.0.1",
+    "vue-router": "^3.5.1",
+    "vue-swatches": "^2.1.0",
+    "vuedraggable": "^2.24.3",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.8",
+    "@vue/cli-plugin-eslint": "~5.0.8",
+    "@vue/cli-plugin-router": "~5.0.8",
+    "@vue/cli-plugin-vuex": "~5.0.8",
+    "@vue/cli-service": "~5.0.8",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^7.22.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^7.7.0",
+    "prettier": "^2.2.1",
+    "vue-template-compiler": "^2.6.12"
+  }
+}
